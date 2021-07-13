@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* A trick Ali Qadeer taught me last semester! */
+    font-family: 'Roboto', sans-serif;
+}
+.home_button{
+    width: 5%;
+    position: absolute;
+    padding: 10px;
+}
+
+.home_button:hover{
+    opacity: 80%;
+}
+
+body{
+    background-color: lavenderblush;
+}
+#sidebar{
+    position: fixed;
+    width: 30%;
+    height: 100vh;
+    background-color: black;
+    text-align: center; /*https://blog.hubspot.com/website/center-div-css https://www.w3schools.com/css/css_align.asp*/
+}
+
+h1{
+    color: white;
+    padding-top: 130px;
+    padding-bottom: 5px;
+    letter-spacing: 1pt;
+}
+h2{
+    
+    color: orchid;
+    font-weight: 200;
+    font-size: 16pt;
+}
+h3{
+    color: white;
+    padding-top: 100px;
+    line-height: 32pt;
+    font-weight: 200;
+    letter-spacing: 1pt;
+    font-size: 12pt;
+    text-align: center;
+}
+.grey{
+    color: slategray;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{ /*https://www.w3schools.com/css/css_link.asp*/
+    color: orchid;
+}
+
+#container{
+    /* width: 60%; */
+    margin-left: 40%;
+    margin-right: 5%;
+    padding-top: 70px;
+    /* background-color: blue; */
+}
+
+/* BODY CONTENT */
+
+h4{
+    font-weight: 900;
+    font-size: 18pt;
+    /* letter-spacing: 1pt; */
+    color: rgb(160, 76, 157);
+    padding-bottom: 10px;
+    padding-top: 60px;
+}
+p{
+    padding-bottom: 6pt;
+    font-size: 11pt;
+    /* margin-right: 100px; */
+}
+ul{
+    margin-left: 40px;
+}
+
+#eye_img{
+    width: 300px;
+    float: right;
+    /* https://www.internetingishard.com/html-and-css/floats/ */
+    margin: 20px;
+    margin-top: 0px;
+}
+
+#ocad_img{
+    width: 150px;
+    border: 3px solid black; /* https://www.w3schools.com/howto/howto_css_border_image.asp*/
+    float: right;
+    margin: 20px;
+}
+
+
