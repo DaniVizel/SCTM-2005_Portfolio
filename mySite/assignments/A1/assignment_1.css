@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* A trick Ali Qadeer taught me last semester! */
+    /* A trick Ali Qadeer taught me last semester to get rid of the annoying white bars on full bleed webpages */
     font-family: 'Roboto', sans-serif;
 }
 .home_button{
@@ -22,7 +22,7 @@ body{
     width: 30%;
     height: 100vh;
     background-color: black;
-    text-align: center; /*https://blog.hubspot.com/website/center-div-css https://www.w3schools.com/css/css_align.asp*/
+    text-align: center; 
 }
 
 h1{
@@ -50,19 +50,17 @@ h3{
     color: slategray;
 }
 a{
-    color: white;
     text-decoration: none;
+    color: inherit;
 }
-a:hover{ /*https://www.w3schools.com/css/css_link.asp*/
+a:hover{ 
     color: orchid;
 }
 
 #container{
-    /* width: 60%; */
     margin-left: 40%;
     margin-right: 5%;
     padding-top: 70px;
-    /* background-color: blue; */
 }
 
 /* BODY CONTENT */
@@ -70,33 +68,93 @@ a:hover{ /*https://www.w3schools.com/css/css_link.asp*/
 h4{
     font-weight: 900;
     font-size: 18pt;
-    /* letter-spacing: 1pt; */
     color: rgb(160, 76, 157);
     padding-bottom: 10px;
     padding-top: 60px;
 }
 p{
-    padding-bottom: 6pt;
+    padding-bottom: 8pt;
     font-size: 11pt;
-    /* margin-right: 100px; */
+}
+em{
+    font-weight: bold;
+    font-style: normal;
 }
 ul{
     margin-left: 40px;
+    font-size: 11pt;
 }
-
+li{
+    padding: 2px;
+    width: 400px;
+}
+.link{
+    color: orchid;
+}
+.link:hover{
+    color: rgb(160, 76, 157);
+}
 #eye_img{
     width: 300px;
     float: right;
-    /* https://www.internetingishard.com/html-and-css/floats/ */
     margin: 20px;
     margin-top: 0px;
 }
 
 #ocad_img{
     width: 150px;
-    border: 3px solid black; /* https://www.w3schools.com/howto/howto_css_border_image.asp*/
+    border: 3px solid black;
     float: right;
     margin: 20px;
 }
+#insta_wrap{
+    display: block;
+    margin: auto;
+    float:none;
+}
+#img_insta1{
+    width: 400px;
+    float: left;
+    padding-bottom: 100px;
+    padding-left: 60px;
+}
+#img_insta2{
+    width: 210px;
+    float: left;
+    padding-left: 20px;
+}
+#img_insta3{
+    width: 210px;
+    float: inline-end;
+    padding-left: 20px;
+    padding-top: 20px;
+}
 
+#clickMe{
+    border: 5px solid orchid;
+    background-color: white;
+    border-radius: 45px;
+    width: 300px;
+    height: 75px;
+    margin-left: 30%;
+    margin-top: 30px;
+    text-align: center;
 
+    
+}
+#clickMe:hover{
+    background-color: rgb(247, 222, 230);
+}
+#clickMe_p{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    width: 250px;
+    color: rgb(160, 76, 157);
+    font-size: 14pt;
+    font-weight: 600;
+}
+#clickMe_cap{
+    text-align: center;
+    padding-top: 15px;
+}

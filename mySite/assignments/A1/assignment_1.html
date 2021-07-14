@@ -32,19 +32,24 @@
         <h4>The Student</h4>
         <img id = "ocad_img" src = "https://format-com-cld-res.cloudinary.com/image/private/s--zTdwORbu--/c_limit,g_center,h_65535,w_1600/fl_keep_iptc.progressive.apng/v1/a1d71ed8ae1a16c86a14fb4184625b88/OCADU.png">
         <p> Hi there! </p>
-        <p>I’m Daniella, a Graphic Design major at OCAD University. 
+        <p>I’m Daniella, a Graphic Design major at <a class = "link" href = "https://www.ocadu.ca/">OCAD University</a>. 
             I’m really excited to be delving into the foreign world of code and programing 
             with this course led by Professor Ian Jarvis. As a creative person I’ve dabbled in 
             dozens of different mediums from traditional graphite drawing, to painting, 
             to digital art, to tactile mixed media works, to paper sculpture, to string arts, 
             and embroidery… the list goes on. However, last semester I dipped my toes into 
-            generative art for the first time using P5.js and found it fascinating. 
+            generative art for the first time using <a class = "link" href = "https://p5js.org/">P5.js</a> and found it fascinating. 
             The unpredictability in the creative process was unlike anything I’ve ever done before.
             This term I'm thrilled to be broadening my skills in the media of code.
         </p>
         <p>Join me for the next 6 weeks to see my learning in real time with this portfolio site. 
         </p>
-<!-- INSERT PROMPT BUTTON HERE -->
+
+    <button id = "clickMe" onclick="myDonut()">
+        <p id = "clickMe_p">Click here to discover what type of donut you are!</p>
+    </button>
+
+    <p id = "clickMe_cap">Use the console in Developer Tools to see the results.</p>
 
         <h4>The Person</h4>
         <img id = "eye_img" src = "Images/image1_about.JPG">
@@ -53,20 +58,53 @@
             Here are some fun facts about me:</p>
         <ul>
             <li>I have a killer sweet tooth (donuts are my personal weakness)</li>
-            <li>I don’t have a favourite colour (I do however have favourite colour pallets, here is one)</li>
+            <li>I don’t have a favourite colour (I do however have favourite colour pallets, <a target = blank class = "link" href = "https://www.schemecolor.com/wallpaper?i=1574&desktop">here is one</a>)</li>
             <li>I really love dogs (especially my very sassy 7 year old maltese/poodle mix)</li>
             <li>I am a proud houseplant addict (I currently care for 50 plants and counting)</li>
             <li>I have a two titanium rods and 20-something screws holding my spine straight</li>
         </ul>
         
         <h4>The Identity</h4>
-        <p>Feel free to see more of my work on my Instagram page <em>@dani.ella.art</em></p>
+        <p>Feel free to look at more of my work on my Instagram page <a class = "link" href = "https://www.instagram.com/dani.ella.art/?hl=en"><em>@dani.ella.art</em></a></p>
 
+        <div id = "insta_wrap">
+            <a href = "https://www.instagram.com/dani.ella.art/?hl=en"><img id = "img_insta1" src = "Images/image2_insta.jpg"></a>
+            <a href = "https://www.instagram.com/dani.ella.art/?hl=en"><img id = "img_insta2" src = "Images/image3_insta.jpg"></a>
+            <a href = "https://www.instagram.com/dani.ella.art/?hl=en"><img id = "img_insta3" src = "Images/image4_insta.jpg"></a>
+        </div>
 
     </div>
 
-
-
-    <script></script>
+    <script src = "A1.js"> </script>
 </body>
+
+
+<!-- CITATIONS 
+
+    note: this is not my first time working in HTML/CSS (I learned 99% of what I know last semester in my core GD course). 
+    I am fairly new to JS, I have used it before but I have a poor/incomplete understanding.
+
+    2nd note: I did use a few inline CSS styles on the placeholder pages but they are temporary and will be removed when I complete the cooresponding assignment so they do not interfere with any future css styling.
+
+    Anything that I did need to look up is cited below (JS citations are in the .js file):
+
+    https://www.w3schools.com/css/css_align.asp
+    https://blog.hubspot.com/website/center-div-css
+        ^ I often struggle with getting elements to correctly center on the page or within divs so I used these resources often to look back on
+    https://www.internetingishard.com/html-and-css/floats/
+        ^ I previously never used floats before but used to use absolute positioning on elements. This page introduced me to the method and I applied it on all images on my webpage.
+    https://www.w3schools.com/howto/howto_css_border_image.asp  
+        ^ I used this to add borders to some images and the button element
+    https://www.w3schools.com/css/css_link.asp
+        ^ I have used hover styles before, but forgot how to format them. Used to jog my memory
+
+    JS CITATIONS
+    https://stackoverflow.com/questions/33426728/run-javascript-using-onclick
+        ^ I used this to learn how to run the js on click of my element instead of on page load
+    https://www.w3schools.com/js/js_if_else.asp
+        ^ used to refresh my memory on formatting if statments (i played with this once before)
+    https://www.w3schools.com/jsref/met_win_p
+        ^ discovered switch statments and used this to create main function
+
+-->
 </html>
